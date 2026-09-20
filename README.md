@@ -4,15 +4,15 @@ A working cursed forum where nine components have mandatory semantic jobs and no
 
 ## The nine Hells
 
-1. HTML — structural forum database
-2. CSS — one authorization oracle
-3. JavaScript — event broker
-4. PHP — sessions/login/read state
-5. Python — inter-component exception protocol + HTTP coordinator
-6. TypeScript — referential-integrity oracle and one vote on reality
-7. C++ — moderation policy compiler
-8. Unix — FIFOs, locks, processes, plus filesystem mode bits as a second authorization oracle
-9. Directories — source/storage/linker; the main runtime is reconstructed from directory names
+1. HTML - structural forum database
+2. CSS - one authorization oracle
+3. JavaScript - event broker
+4. PHP - sessions/login/read state
+5. Python - inter-component exception protocol + HTTP coordinator
+6. TypeScript - referential-integrity oracle and one vote on reality
+7. C++ - moderation policy compiler
+8. Unix - FIFOs, locks, processes, plus filesystem mode bits as a second authorization oracle
+9. Directories - source/storage/linker; the main runtime is reconstructed from directory names
 
 ## v0.4.1: memfd bootstrap fix
 
