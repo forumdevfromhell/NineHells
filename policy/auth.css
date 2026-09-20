@@ -1,0 +1,14 @@
+/* CSS is parsed as the authorization engine. Removing/changing these rules changes permissions. */
+body[data-role="guest"] .perm-create { --ninehells-allow: 0; }
+body[data-role="user"] .perm-create { --ninehells-allow: 1; }
+body[data-role="admin"] .perm-create { --ninehells-allow: 1 !important; }
+body[data-role="guest"] .perm-reply { --ninehells-allow: 0; }
+body[data-role="user"] .perm-reply { --ninehells-allow: 1; }
+body[data-role="admin"] .perm-reply { --ninehells-allow: 1 !important; }
+body[data-role="guest"] .perm-read { --ninehells-allow: 1; }
+body[data-role="user"] .perm-read { --ninehells-allow: 1; }
+body[data-role="admin"] .perm-read { --ninehells-allow: 1 !important; }
+
+body[data-role="guest"] .perm-moderate { --ninehells-allow: 0; }
+body[data-role="user"] .perm-moderate { --ninehells-allow: 0; }
+body[data-role="admin"] .perm-moderate { --ninehells-allow: 1 !important; }
